@@ -27,4 +27,23 @@ print(lista4)
 
 range1 = range(1,25)
 lista5 = list(range1)
+del(lista5[5])
 print(lista5)
+
+lista6 = [
+    [1,2,3],
+    [4,5,6,'NAPIS'],
+    [7,8,9]
+]
+print(lista6[1][3][2])
+
+x=0
+while(x<10):
+    print('wyświetl mnie!')
+    x += 1
+
+
+decyzja = None
+while(decyzja != 'T'):
+    decyzja = input("Wciśnij 'T' aby zakończyć program")
+
