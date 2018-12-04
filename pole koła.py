@@ -16,5 +16,8 @@ def pole_kola(r):
     r_2 = promien ** 2
     return (3.14 * r_2)
 
+
 r = input("Podaj promień koła: ")
 print(pole_kola(r))
+
+

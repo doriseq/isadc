@@ -15,10 +15,13 @@
 # print("Wynik to: ")
 # print(nawias+liczba_2)
 
-def cnaf():
-    stopien_c = input("Podaj stopień Celsjusza, który chcesz przeliczyć")
-    liczba_1= float(stopien_c)
+def cnaf(c):
+
+    liczba_1= float(c)
     return (liczba_1* 1.8) + 32
-print(cnaf())
 
 
+c = input("Podaj stopień Celsjusza, który chcesz przeliczyć")
+print(cnaf(c))
+
+print(cnaf(34))

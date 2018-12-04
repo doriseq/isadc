@@ -8,7 +8,7 @@
 # print((('|' + (' ' * a) + '|\n') * b), end='')
 # print('+' + ('-' * a) + '+')
 
-def prostokat():
+def prostokat(a, b):
     wartosc_1 = input("Podaj liczbę dla szerokości:")
     wartosc_2 = input("Podaj liczbę dla wysokości: ")
     a = int(wartosc_1)
@@ -19,4 +19,4 @@ def prostokat():
     return (gora_dol + '\n' + srodek *b + gora_dol)
 
 
-print(prostokat())
+print(prostokat(4,5))
